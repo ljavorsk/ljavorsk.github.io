@@ -202,6 +202,21 @@ main { display: block; }
   gap: clamp(2rem, 5vw, 4rem);
   align-items: center;
 }
+.hero-avatar {
+  display: block;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: 50% 15%;
+  border: 2px solid var(--border-strong);
+  box-shadow:
+    0 0 0 4px rgba(56, 225, 212, 0.08),
+    0 8px 28px rgba(0, 0, 0, 0.45),
+    0 0 30px rgba(56, 225, 212, 0.15);
+  margin: 0 0 1.3rem;
+}
+
 .hero-hello {
   font-family: var(--mono);
   color: var(--cyan);
