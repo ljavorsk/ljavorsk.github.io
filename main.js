@@ -38,7 +38,7 @@
     line.className = "t-line";
     var prompt = document.createElement("span");
     prompt.className = "t-prompt";
-    prompt.textContent = "[ljavorsky@javorsky-me ~]$ ";
+    prompt.textContent = "[ljavorsk@javorsky-me ~]$ ";
     var cmd = document.createElement("span");
     cmd.className = "t-cmd";
     line.appendChild(prompt);
