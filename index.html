@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lukas Javorsky — Product Security Engineer</title>
+  <meta name="description" content="Lukas Javorsky — Senior Product Security Engineer & Incident Commander at Red Hat. EU CRA, ETSI delegate, Fedora contributor. IT & Cybersecurity.">
+  <meta name="color-scheme" content="dark">
+  <meta name="theme-color" content="#070b12">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cpath d='M32 4 56 12v16c0 16-10 26-24 32C18 54 8 44 8 28V12z' fill='%23071018' stroke='%2338e1d4' stroke-width='3'/%3E%3Cpath d='M24 24l-8 8 8 8' stroke='%23ff4444' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M40 24l8 8-8 8' stroke='%2338e1d4' stroke-width='4' fill='none' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Lukas Javorsky — Product Security Engineer">
+  <meta property="og:description" content="Senior Product Security Engineer & Incident Commander at Red Hat · EU CRA · ETSI delegate · Fedora contributor">
+  <meta property="og:url" content="https://javorsky.me/">
+  <meta name="twitter:card" content="summary">
+
+  <link rel="stylesheet" href="style.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lukas Javorsky",
+    "jobTitle": "Senior Product Security Engineer — Incident Commander",
+    "worksFor": { "@type": "Organization", "name": "Red Hat" },
+    "url": "https://javorsky.me/",
+    "address": { "@type": "PostalAddress", "addressLocality": "Brno", "addressCountry": "CZ" },
+    "alumniOf": { "@type": "CollegeOrUniversity", "name": "Brno University of Technology" },
+    "knowsAbout": ["Product Security", "Incident Response", "Vulnerability Management", "EU Cyber Resilience Act", "Linux Security", "Open Source", "Fedora", "RHEL"],
+    "sameAs": [
+      "https://www.linkedin.com/in/lukas-javorsky/",
+      "https://github.com/ljavorsk"
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#about">Skip to content</a>
+  <canvas id="bg" aria-hidden="true"></canvas>
+  <div class="scroll-progress" aria-hidden="true"><span id="scroll-bar"></span></div>
+
+  <header class="nav" id="top">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a class="nav-logo" href="#top" aria-label="Home">~/<span>ljavorsky</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">about</a></li>
+        <li><a href="#experience">experience</a></li>
+        <li><a href="#open-source">open&nbsp;source</a></li>
+        <li><a href="#education">education</a></li>
+        <li><a href="#certifications">certs</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <p class="hero-hello"><span class="wave" aria-hidden="true">&gt;_</span> Hello, I'm</p>
+          <h1 class="glitch" data-text="Lukas Javorsky">Lukas Javorsky</h1>
+          <h2 class="hero-role">
+            Senior <span class="accent-red">Product Security Engineer</span> &amp;<br>
+            <span class="accent-cyan">Incident Commander</span> at Red Hat
+          </h2>
+          <p class="hero-tagline">
+            Securing open source, commanding security incidents, and shaping EU cyber
+            regulation (CRA). Engineering background, security mindset — bridging the
+            gap between how software is <em>built</em> and how it's <em>defended</em>.
+          </p>
+          <div class="hero-location">
+            <span class="pulse-dot" aria-hidden="true"></span> Brno, Czechia
+          </div>
+          <div class="hero-cta">
+            <a class="btn btn-primary" href="#experience">View experience</a>
+            <a class="btn btn-ghost" href="https://www.linkedin.com/in/lukas-javorsky/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          </div>
+
+          <div class="stats" aria-label="Quick facts">
+            <div class="stat">
+              <span class="stat-num" data-target="7" data-suffix="+">7+</span>
+              <span class="stat-label">years in open source</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="10" data-suffix="+">10+</span>
+              <span class="stat-label">certifications</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num" data-target="2" data-suffix="">2</span>
+              <span class="stat-label">university degrees</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-terminal">
+          <div class="terminal" role="img" aria-label="Terminal animation introducing Lukas Javorsky">
+            <div class="term-bar">
+              <span class="dot red"></span><span class="dot yellow"></span><span class="dot green"></span>
+              <span class="term-title">ljavorsky@javorsky-me: ~</span>
+            </div>
+            <div class="term-body" id="term-body">
+              <div class="t-line"><span class="t-prompt">[ljavorsky@javorsky-me ~]$</span> <span class="t-cmd">whoami</span></div>
+              <div class="t-out">lukas.javorsky — product security &amp; open source</div>
+              <div class="t-line"><span class="t-prompt">[ljavorsky@javorsky-me ~]$</span> <span class="t-cmd">cat role.txt</span></div>
+              <div class="t-out">Senior Product Security Engineer @ Red Hat</div>
+              <div class="t-out">Incident Commander · EU-CRA · ETSI delegate</div>
+              <div class="t-line"><span class="t-prompt">[ljavorsky@javorsky-me ~]$</span> <span class="t-cmd">./expertise --list</span></div>
+              <div class="t-out ok">[+] product &amp; software security</div>
+              <div class="t-out ok">[+] incident response</div>
+              <div class="t-out ok">[+] vulnerability management</div>
+              <div class="t-out ok">[+] EU Cyber Resilience Act</div>
+              <div class="t-out ok">[+] Linux &amp; open-source security</div>
+              <div class="t-line"><span class="t-prompt">[ljavorsky@javorsky-me ~]$</span> <span class="t-cmd">uptime</span></div>
+              <div class="t-out">7+ years in open source — and counting</div>
+              <div class="t-line"><span class="t-prompt">[ljavorsky@javorsky-me ~]$</span> <span class="t-cursor">█</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="scroll-hint" href="#about" aria-label="Scroll down">▼</a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="section">
+      <h2 class="section-title reveal"><span class="path">./</span>about<span class="cursor-blink">_</span></h2>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm a <strong>Senior Product Security Engineer</strong> at Red Hat, working as an
+            <strong>Incident Commander</strong> with a focus on the <strong>EU Cyber Resilience Act</strong>
+            and the security of open-source products.
+          </p>
+          <p>
+            My perspective on product security comes from having worked in engineering teams before
+            moving into Product Security. Earlier in my Red Hat career, I worked on
+            <strong>MariaDB</strong>, <strong>MySQL</strong>, and archive components such as
+            <strong>tar</strong>, <strong>zlib</strong>, and <strong>libarchive</strong>, as well as
+            container images through <strong>SCLOrg</strong> across Fedora, RHEL, and CentOS.
+            That hands-on background helps me understand the practical challenges development teams
+            face when security requirements, vulnerabilities, compliance, and product delivery meet.
+          </p>
+          <p>
+            Today I work on the other side of that equation: driving security response across
+            products, coordinating incident response, and translating cybersecurity regulation into
+            engineering practice. I'm also a <strong>Red Hat delegate to ETSI</strong>, working on
+            EU CRA vertical standards for operating systems.
+          </p>
+          <p>
+            A major part of my work is <strong>bridging the gap between security and engineering</strong>.
+            Having been part of engineering teams myself, I care about making security processes
+            practical and useful — not treating security as something separate from how products
+            are actually built and maintained.
+          </p>
+          <p>
+            I'm also deeply involved in the <a href="https://fedoraproject.org/" target="_blank" rel="noopener noreferrer">Fedora Project</a>,
+            where I progressed from Packager to Proven Packager and Packager Sponsor, and I'm a member
+            of the <strong>Fedora Security SIG</strong>. This keeps me connected to the communities
+            and engineering workflows behind many of the technologies I now help secure.
+          </p>
+        </div>
+        <aside class="about-side reveal">
+          <div class="panel">
+            <h3 class="panel-title">$ focus_areas</h3>
+            <ul class="focus-list">
+              <li>Product &amp; software security</li>
+              <li>Incident response &amp; coordination</li>
+              <li>Linux &amp; open-source security</li>
+              <li>Vulnerability management</li>
+              <li>Cybersecurity regulation (EU CRA)</li>
+              <li>Security engineering &amp; secure development</li>
+              <li>Bridging engineering, product security &amp; compliance</li>
+            </ul>
+          </div>
+          <div class="panel">
+            <h3 class="panel-title">$ currently</h3>
+            <ul class="focus-list">
+              <li><span class="accent-cyan">Red Hat</span> — Product Security, Incident Commander</li>
+              <li><span class="accent-cyan">ETSI</span> — Red Hat delegate, EU CRA vertical standards for operating systems</li>
+              <li><span class="accent-cyan">Fedora</span> — Security SIG, Proven Packager, Packager Sponsor</li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="section">
+      <h2 class="section-title reveal"><span class="path">./</span>experience<span class="cursor-blink">_</span></h2>
+      <div class="timeline">
+        <article class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Senior Product Security Engineer — Incident Commander &amp; EU-CRA</h3>
+              <span class="tl-org">Red Hat</span>
+            </div>
+            <span class="tl-date">Apr 2026 — Present</span>
+            <ul>
+              <li>Driving product security incident response and coordinating security incidents across Red Hat's product portfolio.</li>
+              <li>Focused on EU Cyber Resilience Act readiness and the security of open-source products.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Red Hat Delegate — EU Cyber Resilience Act Vertical Standards, Operating Systems</h3>
+              <span class="tl-org">ETSI</span>
+            </div>
+            <span class="tl-date">Jun 2026 — Present</span>
+            <ul>
+              <li>Representing Red Hat in ETSI working groups shaping the EU CRA vertical standards for operating systems.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Software Engineer — Databases &amp; Core Components</h3>
+              <span class="tl-org">Red Hat</span>
+            </div>
+            <span class="tl-date">Earlier</span>
+            <ul>
+              <li>Engineered and maintained <strong>MariaDB</strong> and <strong>MySQL</strong> products.</li>
+              <li>Worked on archive components: <strong>tar</strong>, <strong>zlib</strong>, <strong>libarchive</strong>.</li>
+              <li>Built container images through <strong>SCLOrg</strong> across Fedora, RHEL, and CentOS.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ OPEN SOURCE ============ -->
+    <section id="open-source" class="section">
+      <h2 class="section-title reveal"><span class="path">./</span>open-source<span class="cursor-blink">_</span></h2>
+      <p class="section-lead reveal">
+        Fedora Project contributor since 2019 — from first package to sponsoring the next
+        generation of packagers.
+      </p>
+      <div class="cards">
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">&#60;/&#62;</div>
+          <h3>Fedora Security SIG</h3>
+          <p class="card-meta">Aug 2026 — Present</p>
+          <p>Member of the Fedora Security SIG, contributing to the security aspects of the Fedora ecosystem.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">⚙</div>
+          <h3>Packager Sponsor</h3>
+          <p class="card-meta">Jun 2025 — Present</p>
+          <p>Sponsoring and mentoring new packagers joining the Fedora Project — reviewing packages and guiding contributors through the process.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">★</div>
+          <h3>Proven Packager</h3>
+          <p class="card-meta">May 2023 — Present</p>
+          <p>Trusted with broad privileges across Fedora packages — a recognition of sustained, high-quality contributions.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-icon" aria-hidden="true">&#128230;</div>
+          <h3>Packager</h3>
+          <p class="card-meta">Jul 2019 — Present</p>
+          <p>Where it started — packaging and maintaining open-source software in Fedora.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section id="education" class="section">
+      <h2 class="section-title reveal"><span class="path">./</span>education<span class="cursor-blink">_</span></h2>
+      <div class="timeline">
+        <article class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Master's degree — Business &amp; Management in IT / Cybersecurity</h3>
+              <span class="tl-org">Brno University of Technology</span>
+            </div>
+            <span class="tl-date">2022 — 2024</span>
+            <ul>
+              <li>Management studies with a focus on the IT industry and cybersecurity.</li>
+              <li>Completed courses: ISMS, Risk Management, IT Management, IT Network Management, Cybersecurity Management, Industrial Solutions Security Management, Competitive &amp; Business Intelligence, Project Management.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Bachelor's degree — Information Technology</h3>
+              <span class="tl-org">Brno University of Technology</span>
+            </div>
+            <span class="tl-date">2018 — 2022</span>
+            <ul>
+              <li>Completed courses: Operating Systems, Algorithms, Formal Languages and Compilers, Database Systems, Computer Communications and Networks, Network Applications and Administration, Java Programming, Fundamentals of AI, Web Design.</li>
+            </ul>
+          </div>
+        </article>
+
+        <article class="tl-item reveal">
+          <div class="tl-dot" aria-hidden="true"></div>
+          <div class="tl-card">
+            <div class="tl-head">
+              <h3>Information Technology &amp; Networks</h3>
+              <span class="tl-org">Secondary Technical School of Jozef Murgaš</span>
+            </div>
+            <span class="tl-date">2014 — 2018</span>
+            <ul>
+              <li>Computer networks, electrical engineering, Java and C programming fundamentals.</li>
+              <li>2× successful placement at the volleyball championships of the Slovak Republic.</li>
+            </ul>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ CERTIFICATIONS ============ -->
+    <section id="certifications" class="section">
+      <h2 class="section-title reveal"><span class="path">./</span>certifications<span class="cursor-blink">_</span></h2>
+      <div class="cards cert-grid">
+        <a class="card cert reveal" href="https://www.credly.com/badges/58cec8f2-a6cf-442f-9126-b50b23299640/public_url" target="_blank" rel="noopener noreferrer">
+          <div class="card-icon" aria-hidden="true">&#129504;</div>
+          <h3>Cisco Ethical Hacker</h3>
+          <p class="card-meta">Cisco · 2023</p>
+          <span class="cert-link">view credential ↗</span>
+        </a>
+        <a class="card cert reveal" href="https://www.coursera.org/account/accomplishments/specialization/certificate/FFKFHK5A2DVP" target="_blank" rel="noopener noreferrer">
+          <div class="card-icon" aria-hidden="true">&#128737;</div>
+          <h3>Google Cybersecurity Specialization</h3>
+          <p class="card-meta">Google · 2023</p>
+          <span class="cert-link">view credential ↗</span>
+        </a>
+        <a class="card cert reveal" href="https://www.coursera.org/account/accomplishments/specialization/certificate/GKL94TNPW72K" target="_blank" rel="noopener noreferrer">
+          <div class="card-icon" aria-hidden="hidden&#8203;">&#128202;</div>
+          <h3>Google Data Analytics</h3>
+          <p class="card-meta">Google · 2023</p>
+          <span class="cert-link">view credential ↗</span>
+        </a>
+        <div class="card cert reveal">
+          <div class="card-icon" aria-hidden="true">&#10003;&#10003;</div>
+          <h3>ISTQB® Foundation Level</h3>
+          <p class="card-meta">ITB · 2023</p>
+        </div>
+        <div class="card cert reveal">
+          <div class="card-icon" aria-hidden="true">&#128104;&#8205;&#128187;</div>
+          <h3>Cybersecurity Manager Course</h3>
+          <p class="card-meta">NÚKIB · 2023</p>
+        </div>
+        <div class="card cert reveal">
+          <div class="card-icon" aria-hidden="true">&#128225;</div>
+          <h3>CCNA R&amp;S: Routing &amp; Switching Essentials</h3>
+          <p class="card-meta">Cisco · 2017</p>
+        </div>
+        <div class="card cert reveal">
+          <div class="card-icon" aria-hidden="true">&#127760;</div>
+          <h3>CCNA R&amp;S: Introduction to Networks</h3>
+          <p class="card-meta">Cisco · 2016</p>
+        </div>
+        <div class="card cert reveal">
+          <div class="card-icon" aria-hidden="true">&#128187;</div>
+          <h3>IT Essentials</h3>
+          <p class="card-meta">Cisco · 2015</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="section">
+      <h2 class="section-title reveal"><span class="path">./</span>skills<span class="cursor-blink">_</span></h2>
+      <div class="skill-groups">
+        <div class="skill-group reveal">
+          <h3 class="panel-title">$ security</h3>
+          <div class="chips">
+            <span class="chip">Product Security</span>
+            <span class="chip">Incident Response</span>
+            <span class="chip">Vulnerability Management</span>
+            <span class="chip">Secure Development</span>
+            <span class="chip">Risk Management</span>
+            <span class="chip">ISMS</span>
+            <span class="chip">Security Coordination</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="panel-title">$ regulation</h3>
+          <div class="chips">
+            <span class="chip">EU Cyber Resilience Act</span>
+            <span class="chip">ETSI Standards</span>
+            <span class="chip">Compliance</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="panel-title">$ engineering</h3>
+          <div class="chips">
+            <span class="chip">Linux — RHEL / CentOS / Fedora</span>
+            <span class="chip">Python</span>
+            <span class="chip">SQL</span>
+            <span class="chip">MariaDB / MySQL</span>
+            <span class="chip">Docker</span>
+            <span class="chip">Kubernetes</span>
+            <span class="chip">OpenShift</span>
+            <span class="chip">Containers</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3 class="panel-title">$ community</h3>
+          <div class="chips">
+            <span class="chip">Fedora Packaging</span>
+            <span class="chip">Open Source</span>
+            <span class="chip">Mentoring</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="section">
+      <h2 class="section-title reveal"><span class="path">./</span>contact<span class="cursor-blink">_</span></h2>
+      <div class="contact-panel reveal">
+        <p class="contact-lead">
+          Working on complex problems where engineering reality, security, regulation, and
+          open-source collaboration intersect? Let's talk.
+        </p>
+        <div class="contact-links">
+          <a class="btn btn-primary" href="https://www.linkedin.com/in/lukas-javorsky/" target="_blank" rel="noopener noreferrer">in — LinkedIn ↗</a>
+          <a class="btn btn-ghost" href="https://github.com/ljavorsk" target="_blank" rel="noopener noreferrer">gh — GitHub ↗</a>
+        </div>
+        <p class="contact-note">$ ping ljavorsky — Brno, Czechia · <span class="accent-green">ONLINE</span></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year">2026</span> Lukas Javorsky · built with ♥ and zero trackers</p>
+    <p class="footer-src"><a href="https://github.com/ljavorsk/ljavorsk.github.io" target="_blank" rel="noopener noreferrer">view source ↗</a></p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

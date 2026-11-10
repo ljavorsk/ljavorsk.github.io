@@ -1,0 +1,3 @@
+Contact: https://www.linkedin.com/in/lukas-javorsky/
+Preferred-Languages: en, cs
+Canonical: https://javorsky.me/.well-known/security.txt
