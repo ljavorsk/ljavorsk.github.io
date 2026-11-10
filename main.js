@@ -48,6 +48,7 @@
     cursor.textContent = "█";
     line.appendChild(cursor);
     termBody.appendChild(line);
+    termBody.scrollTop = termBody.scrollHeight;
     return { cmd: cmd, cursor: cursor };
   }
 
@@ -56,6 +57,7 @@
     line.className = "t-out" + (ok ? " ok" : "");
     line.textContent = text;
     termBody.appendChild(line);
+    termBody.scrollTop = termBody.scrollHeight;
   }
 
   async function runTerminal() {

@@ -378,7 +378,10 @@ main { display: block; }
   font-size: clamp(0.72rem, 1.7vw, 0.85rem);
   line-height: 1.75;
   padding: 1rem 1.1rem 1.2rem;
-  min-height: 340px;
+  height: 340px;
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: none;
   position: relative;
   background:
     repeating-linear-gradient(
@@ -387,6 +390,7 @@ main { display: block; }
       rgba(255, 255, 255, 0.012) 2px 4px
     );
 }
+.term-body::-webkit-scrollbar { display: none; }
 .t-line { white-space: pre-wrap; word-break: break-word; }
 .t-prompt { color: var(--green); }
 .t-cmd { color: var(--text); }
@@ -642,7 +646,7 @@ main { display: block; }
 }
 
 @media (max-width: 480px) {
-  .term-body { min-height: 300px; padding: 0.85rem 0.8rem 1rem; }
+  .term-body { height: 300px; padding: 0.85rem 0.8rem 1rem; }
   .t-out { padding-left: 0.8em; }
   .stats { gap: 1.1rem; }
   .hero-cta .btn { flex: 1 1 auto; justify-content: center; text-align: center; }
